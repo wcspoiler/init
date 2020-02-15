@@ -1,0 +1,3 @@
+#-r: kernel routing, -n: numerical addresses
+#Check second grep en0 ???
+netstat -rn | grep default | awk '{print $2}'

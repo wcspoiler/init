@@ -1,0 +1,3 @@
+#Check interface!!!!
+ifconfig en1 | grep broadcast | awk '{print $6}'
+arp -a
