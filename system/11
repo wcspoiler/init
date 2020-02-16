@@ -1,0 +1,4 @@
+# Command
+# Name the command that displays the available space left and used on the system in an humanly understandable way
+# df displays the amount of disk space available on the file system containing each file name argument.
+df -H

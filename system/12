@@ -1,0 +1,5 @@
+# Command
+# Figure out the exact size of each folder of /var in a humanly understandable way followed by the path of it.
+# du - estimate file space usage
+# -s: display only a total for each argument; -h: print sizes in human readable format (e.g., 1K 234M 2G)
+du -sh /var/*
