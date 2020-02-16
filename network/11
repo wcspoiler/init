@@ -1,0 +1,7 @@
+# Deduction
+# Use the output of the previous command to find the name and IP address of the device that makes the link between you (local network) and the outside world
+# NAT - Network Adress Translation
+# 1 - Your local IP
+# 2 - NAT IP
+# 3 - Public IP
+192.168.2.9

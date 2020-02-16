@@ -1,2 +1,3 @@
-#8.8.8.8 - free public Google DNS
+# Command
+# 8.8.8.8 - free public Google DNS
 nslookup slash16.org 8.8.8.8

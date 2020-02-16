@@ -1,0 +1,5 @@
+# Command output
+# Thanks to the previous question and the reverse DNS find the name of your host
+# 192.168.22.56
+# nslookup 192.168.22.56 | grep name | awk '{print $4}'
+at-j2.21-school.ru.
