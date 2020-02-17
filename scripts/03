@@ -1,1 +1,7 @@
-*put your script here*
+# *put your script here*
+
+#!/bin/bash
+PID=$(ps ax | grep $1 | awk '{print $1}')
+printf "$PID"
+printf "\n"
+kill $PID

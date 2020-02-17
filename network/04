@@ -2,4 +2,4 @@
 # Identifiy the default gateway in the routing table
 # -r: kernel routing, -n: numerical addresses
 # Check second grep en0 ???
-netstat -rn | grep default | awk '{print $2}'
+netstat -rn | grep default | grep en0 | awk '{print $2}'
