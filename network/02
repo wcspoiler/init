@@ -4,4 +4,4 @@
 # arp - address resolution display and control
 # Check interface name!!!!
 ifconfig en0 | grep broadcast | awk '{print $6}'
-arp -a
+arp -a | grep -v "?"
