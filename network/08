@@ -1,5 +1,8 @@
 # Deduction
 # Find the provider of slash16.org
-whois slash16.org | grep 'Name Server:' | awk '{print $3}'
 
-# !!!!!!!!!!!!!!!!!!!!! Переделать!!!
+# First - check for provided IPs
+1) nslookup slash16.org | grep 'Address: ' | awk '{print $2}'
+
+# Then - whois <any_of_those>
+2) whois 13.33.243.106 | grep -v '#' | grep -v '^$'

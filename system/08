@@ -1,4 +1,5 @@
 # Deduction
 # What file contains the RSA keys of systems that are authorized to connect via SSH?
 # (Debian may not have this folder by default, you probably have to create it in /~)
+
 ~/.ssh/authorized_keys

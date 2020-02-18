@@ -1,3 +1,4 @@
 # Command
 # List of network interfaces without details
+
 ifconfig -l

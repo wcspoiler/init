@@ -1,4 +1,5 @@
 # Command
 # Can check in MacOS dialog settings
 # Identify the MAC address of the Wi-Fi card
+
 ifconfig en1 | grep ether | awk '{print $2}'

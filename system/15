@@ -1,4 +1,5 @@
 # Command
 # Find the command that kills the background command’s process
 # Check process'es PID: ps ax | grep <process>
+
 kill <PID>

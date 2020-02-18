@@ -1,4 +1,5 @@
 # Command
 # Find the command that add a new local user
 # To use this command you should get in su mode with "-" flag: su -
+
 adduser <user>

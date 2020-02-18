@@ -1,4 +1,7 @@
 # Command
+# Non-interactive mode is used to print just the name and requested information for a host or domain.
+# Non-interactive mode is used when the name or Internet address of the host to be looked up is given as the first argument. The optional second argument specifies the host name or address of a name server.
 # Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
 # 8.8.8.8 - free public Google DNS
+
 nslookup slash16.org 8.8.8.8

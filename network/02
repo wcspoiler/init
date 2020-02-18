@@ -3,5 +3,12 @@
 # (b) Identify all IP adresses which are part of the same subnet
 # arp - address resolution display and control
 # Check interface name!!!!
-ifconfig en0 | grep broadcast | awk '{print $6}'
-arp -a | grep -v "?"
+# netmask: 0xfffffc00 = /22
+# Using IP calculator (http://jodies.de/ipcalc) we got: 
+# Network:   192.168.20.0/22
+# Broadcast: 192.168.23.255
+# HostMin:   192.168.20.1
+# HostMax:   192.168.23.254
+
+a) ifconfig en0 | grep broadcast | awk '{print $6}'
+b) arp -a | grep -e192.168.{20..23} | awk '{print $2}' | sed 's/.$//; s/^.//'

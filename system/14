@@ -2,4 +2,5 @@
 # Run the ‘tail -f /var/log/syslog‘ command in background
 # Print the last 10 lines of each FILE to standard output.  With more than one FILE, precede each with a header giving the file name.
 # -f: --follow[={name|descriptor}] output appended data as the file grows; an absent option argument means 'descriptor'.
+
 tail -f /var/log/syslog &

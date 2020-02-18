@@ -1,3 +1,4 @@
 # Deduction
 # What file contains the local DNS entries?
+
 /etc/hosts
