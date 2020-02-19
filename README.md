@@ -10,7 +10,9 @@ This is a sys admin project repo for School21
 5) Now your VM Debian instance will see 2 netwoks: enp0s3 for internet and enp0s8 for netwok (but you can connect to one at a time).
 
 Please note that you should be connected to enp0s8 on your VM Debian to ssh from your mac (host).
-
+</br>
+</br>
+</br>
 Feel free to comment and good luck!
 
 
