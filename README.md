@@ -14,4 +14,4 @@ Please note that you should be connected to enp0s8 on your VM Debian to ssh from
 Feel free to comment and good luck!
 
 
-[pic] : https://github.com/wcspoiler/init/blob/master/fig.jpg
+[pic](https://github.com/wcspoiler/init/blob/master/fig.jpg)
