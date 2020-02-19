@@ -9,6 +9,7 @@
 # Broadcast: 192.168.23.255
 # HostMin:   192.168.20.1
 # HostMax:   192.168.23.254
+# ping broadcast to get new map!! - exclude broadcast?
 
 a) ifconfig en0 | grep broadcast | awk '{print $6}'
 b) arp -a | grep -e192.168.{20..23} | awk '{print $2}' | sed 's/.$//; s/^.//'

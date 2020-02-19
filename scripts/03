@@ -1,4 +1,4 @@
-# *put your script here*
+# This scripts finds process pushed as an arguement then kills it via PID.
 
 #!/bin/bash
 PID=$(ps ax | grep $1 | awk '{print $1}')

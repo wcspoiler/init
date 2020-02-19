@@ -1,4 +1,6 @@
+# Write a script which delete an ACTIVE user on the VM.
 # pgrep — утилита, просматривающая активные процессы в системе и выдающая идентификаторы процессов, атрибуты которых соответствуют указанным в командной строке запросам.
+# You find all processes associated with user first, then kill them with PIDs, then delete user.
 
 #!/bin/bash
 USER=$1
