@@ -1,7 +1,7 @@
 # init
-This is a sys admin project repo for School21
+This is a sys admin project repo.
 
-Краткий мануал по быстрой настройки виртуалки (без проброса портов - через Host-only Adapter, но пробросы всё равно нужно научиться делать для роджера).
+Краткий мануал по быстрой настройки виртуалки (без проброса портов - через Host-only Adapter.
 
 1) VirtualBox -> File -> Host Network Manager...
 2) Create (vboxnet0 appears - we've created virtual lan interface between your host and VM).
